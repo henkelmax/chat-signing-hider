@@ -100,7 +100,7 @@ modUpdate {
     serverURL = 'https://update.maxhenkel.de/'
     modID = mod_id
     gameVersion = minecraft_version
-    modLoader = "fabric"
+    modLoader = 'fabric'
     modVersion = mod_version
     changelogFile = file('changelog.md')
     releaseType = release_type
