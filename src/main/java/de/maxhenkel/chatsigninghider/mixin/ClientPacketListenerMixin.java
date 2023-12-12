@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(ClientPacketListener.class)
 public abstract class ClientPacketListenerMixin {
 
-    @Redirect(method = "handleServerData", at = @At(value = "INVOKE", target = "Lnet/minecraft/network/protocol/game/ClientboundServerDataPacket;enforcesSecureChat()Z", ordinal = 1))
+    @Redirect(method = "handleServerData", at = @At(value = "INVOKE", target = "Lnet/minecraft/network/protocol/game/ClientboundServerDataPacket;enforcesSecureChat()Z", ordinal = 0))
     private boolean enforcesSecureChat(ClientboundServerDataPacket packet) {
         return true;
     }
