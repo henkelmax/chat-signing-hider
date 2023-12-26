@@ -1,1 +1,1 @@
-- Fixed misaligned mixin
+- Updated dependencies
