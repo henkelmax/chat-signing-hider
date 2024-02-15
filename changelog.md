@@ -1,1 +1,1 @@
-- Added mod icon
+- Added support for servers with chat verification enabled
