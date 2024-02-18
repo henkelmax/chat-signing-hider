@@ -1,1 +1,1 @@
-- Added support for servers with chat verification enabled
+- Fixed compatibility with other mods
