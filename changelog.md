@@ -1,1 +1,1 @@
-- Updated dependencies
+- Fixed compatibility with other mods
