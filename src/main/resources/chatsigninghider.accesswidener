@@ -1,0 +1,4 @@
+accessWidener v1 named
+
+accessible class net/minecraft/client/gui/components/ChatComponent$LineConsumer
+accessible method net/minecraft/client/gui/components/ChatComponent forEachLine (IIZILnet/minecraft/client/gui/components/ChatComponent$LineConsumer;)I

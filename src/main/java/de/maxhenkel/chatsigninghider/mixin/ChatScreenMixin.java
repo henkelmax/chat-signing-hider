@@ -13,7 +13,7 @@ import java.util.List;
 @Mixin(ChatScreen.class)
 public abstract class ChatScreenMixin {
 
-    @Redirect(method = "render", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/GuiGraphics;renderTooltip(Lnet/minecraft/client/gui/Font;Ljava/util/List;II)V"))
+    @Redirect(method = "render", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/GuiGraphics;setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;II)V"))
     private void renderTooltip(GuiGraphics instance, Font font, List<? extends FormattedCharSequence> list, int i, int j) {
 
     }
