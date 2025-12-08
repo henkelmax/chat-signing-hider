@@ -24,6 +24,5 @@
   "depends": {
     "fabricloader": "${fabric_loader_dependency}",
     "minecraft": "${minecraft_dependency}"
-  },
-  "accessWidener": "chatsigninghider.accesswidener"
+  }
 }
