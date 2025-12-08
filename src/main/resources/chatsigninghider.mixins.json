@@ -6,9 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "ClientPacketListenerMixin",
-    "ChatScreenMixin",
-    "ChatComponentMixin"
+    "ChatComponentMixin",
+    "ClientPacketListenerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
